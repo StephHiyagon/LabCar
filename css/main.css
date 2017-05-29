@@ -58,7 +58,7 @@ section#viaja{
   padding-left: -15px;
 }
 
-section#conduce,section#info,section#tarifa,footer{
+section#conduce,section#info,section#tarifario,footer{
   height: 100vh;
 
 }
@@ -142,10 +142,13 @@ div.tarifa{
   position:relative;
 }
 
-/*#tarifa{
-  display:inline-block;
-  position: relative;
-}*/
+.tarifa{
+  font-size: 2rem;
+}
+
+.none{
+  display:none;
+}
 
 footer{
   background-color: #2B2B2B;
