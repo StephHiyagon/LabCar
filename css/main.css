@@ -195,6 +195,8 @@ ul>li{
   padding-bottom: 10vh;
 }
 
+/*se visualiza bien en 480x800*/
+
 @media (max-width:768px) {
   div.linea{
     border:1px solid white;
