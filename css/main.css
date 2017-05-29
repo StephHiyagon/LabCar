@@ -1,0 +1,143 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.white{
+  background-color: white;
+  color:black;
+  padding: 0 20px;
+}
+
+ul>li>a{
+  text-decoration: none;
+  color:black;
+}
+
+section#viaja{
+  background-color: skyblue;
+  background-image: url("../assets/img/taxi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 89vh;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.navbar-toggle>.icon-bar{
+  background-color:black;
+}
+
+.naranja{
+  background-color: #F7B617;
+  color:white;
+}
+
+.padding{
+  padding-left: 15px;
+}
+
+.bar{
+  display:inline-block;
+  border-bottom: 1px solid white;
+  height: 0.5vh;
+  width:30%;
+  margin:1px 30px;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.padmen{
+  padding-left: -15px;
+}
+
+section#conduce,section#info,section#tarifa{
+  height: 100vh;
+
+}
+
+div.linea{
+  border:1px solid white;
+  border-left: 0;
+  padding:40px 0px;
+  position: relative;
+  top:15vh;
+  left: -112px;
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items:center;
+}
+
+section#conduce{
+  background-image: url("../assets/img/conduce.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.os{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.rale{
+  font-family: 'Raleway', sans-serif;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+.marginb{
+  margin-bottom: 30px;
+}
+
+.overlay{
+  height: 100vh;
+  background-color: rgba(0,0,0,0.2);
+  color:white;
+  padding-top: 20rem;
+  width: 43.75%;
+}
+
+input[type="text"]{
+  background-color: transparent;
+  outline: none;
+  border:1px solid white;
+  margin-bottom: 30px;
+  width:100%;
+}
+
+input[type="text"]::-webkit-input-placeholder{
+  color:white;
+}
+
+div.tarifa{
+  height: 100vh;
+  display:inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#map{
+  border:1px solid white;
+  width:400px;
+  height: 400px;
+  padding: 10px;
+  }
+
+.abs-map{
+  position: absolute;
+  top: 100px;
+  right: 0;
+}
+
+.relative{
+  position:relative;
+}
