@@ -194,3 +194,28 @@ ul>li{
   margin-top: 2vh;
   padding-bottom: 10vh;
 }
+
+@media (max-width:768px) {
+  div.linea{
+    border:1px solid white;
+    padding:0;
+    left:5px;
+  }
+  .overlay{
+    width:100%;
+  }
+  div.lineas{
+    height:70vh;
+  }
+
+  .div1{
+    justify-content: flex-start;
+    height: 10vh;
+  }
+
+  .div4{
+    position:relative;
+    top:-60rem;
+  }
+
+ }
