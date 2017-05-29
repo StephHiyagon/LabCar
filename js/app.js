@@ -4,7 +4,7 @@
     center: {lat: -34.397, lng: 150.644},
     zoom: 6
   });
-  var infoWindow = new google.maps.InfoWindow({map: map});
+  // var infoWindow = new google.maps.InfoWindow({map: map});
 
   var latitud,longitud,miUbicacion;
   var exito = function(posicion) {
@@ -40,14 +40,14 @@
   var directionsS= new google.maps.DirectionsService;
   var directionsR=new google.maps.DirectionsRenderer;
 
-  var calculateAndDisplayRoute = function(directionsS,directionsR){
+  var calculaRoute = function(directionsS,directionsR){
     directionsS.route({
       origin:partida.value,
       destination:destino.value,
       travelMode:'DRIVING'
     },function (response,status){
       if(status==='OK'){
-  //
+
         console.log(response.routes[0].legs[0].distance.text.replace("km",""));
         var distancia= Number(response.routes[0].legs[0].distance.text.replace("km","").replace(",","."));
         console.log(distancia);
@@ -71,7 +71,7 @@
 
 
   var trazarRuta=function(){
-    calculateAndDisplayRoute(directionsS,directionsR);
+    calculaRoute(directionsS,directionsR);
   }
 
   document.getElementById('trazar').addEventListener('click',trazarRuta);

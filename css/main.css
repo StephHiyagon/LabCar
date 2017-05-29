@@ -201,8 +201,14 @@ ul>li{
     padding:0;
     left:5px;
   }
+
+  .naranja1{
+    position: relative;
+    left: 6.4%;
+  }
   .overlay{
-    width:100%;
+    position: absolute;
+    width: 96vw;
   }
   div.lineas{
     height:70vh;
@@ -211,11 +217,45 @@ ul>li{
   .div1{
     justify-content: flex-start;
     height: 10vh;
+    position:relative;
+    left:220px;
+  }
+
+  .div2{
+    position:relative;
+    left:-180px;
   }
 
   .div4{
     position:relative;
-    top:-60rem;
+    top:-100%;
+    left:50%;
   }
+
+  p.marg{
+    height: 40px;
+    position:relative;
+    left:-80px;
+  }
+
+  .peq{
+    height: 70vh;
+  }
+
+  a.navbar-brand>img{
+    position:relative;
+    left:140px;
+  }
+
+  button.navbar-toggle{
+    position:relative;
+    left:-420px;
+  }
+
+  .padmen{
+    position:absolute;
+    padding-left: 19px;
+  }
+
 
  }
